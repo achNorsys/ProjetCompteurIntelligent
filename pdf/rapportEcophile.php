@@ -15,7 +15,7 @@ $pdf->SetTitle('Suivi de consommation');
 $pdf->SetSubject('Suivi de consommation');
 
 // set default header data
-$pdf->SetHeaderData('linky.jpg', 30, 'Suivi de consommation', "Recapitulatif\nwww.erdf.fr", array(2,64,128));
+$pdf->SetHeaderData('uga.png', 30, 'Suivi de consommation', "Recapitulatif", array(2,64,128));
 
 // set header and footer fonts
 $pdf->setHeaderFont(Array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
