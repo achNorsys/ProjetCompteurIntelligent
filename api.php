@@ -7,7 +7,7 @@ $request = explode('/', trim($_SERVER['PATH_INFO'],'/'));
 
 $time = time();
 // connect to the mysql database
-$link = mysqli_connect('localhost', 'root', '', 'ProjetErdf_bdd');
+$link = mysqli_connect('localhost', 'root', 'linky', 'ProjetERDF_BDD');
 mysqli_set_charset($link,'utf8');
 
 // retrieve the table and key from the path
