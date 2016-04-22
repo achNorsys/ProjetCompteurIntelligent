@@ -6,7 +6,7 @@ $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT,true, 'UTF-8', 
 
 // set document information
 $pdf->SetCreator('TCPDF');
-$pdf->SetAuthor('ERDF');
+$pdf->SetAuthor('Compteur');
 $pdf->SetTitle('Suivi de consommation Econome');
 $pdf->SetSubject('Suivi de consommation');
 

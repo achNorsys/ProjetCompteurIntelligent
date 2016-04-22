@@ -265,7 +265,6 @@ function getPowerPeriod() {
             $.ajax({
                 type: "GET",
                 url: url + ":" + port + "/" + projectDirectory + "/" + api + '/SelectByDate/Values?date1=' + dateStart + '&date2=' + dateEnd,
-                //url: 'http://192.168.0.100:9084/projetERDF/api.php/SelectByDate/Values?date1=2010-08-06 03:27:40&date2=2010-08-06 03:28:00',
                 dataType: 'json',
                 success: function (data) {
                     if (data[0] !== null) {

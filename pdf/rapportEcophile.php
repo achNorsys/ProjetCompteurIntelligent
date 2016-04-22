@@ -10,7 +10,7 @@ $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8',
 $pdf->IncludeJS('rapportEcophile.js');
 // set document information
 $pdf->SetCreator('TCPDF');
-$pdf->SetAuthor('ERDF');
+$pdf->SetAuthor('Compteur');
 $pdf->SetTitle('Suivi de consommation');
 $pdf->SetSubject('Suivi de consommation');
 
