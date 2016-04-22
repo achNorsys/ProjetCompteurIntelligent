@@ -1,4 +1,4 @@
-﻿# ProjetCompteurIntelligent
+# Projet Compteur Intelligent
 
 Espace de Suivie de Consommation Electrique
 
