@@ -146,8 +146,8 @@ Nous décodons toute cette trame grâce à la documentation technique d\'ERDF. P
 C\'est au cours du reste des deux semaines de développement que nous nous sommes organisés avec une équipe « web », qui s’est occupée de toute la partie Restitution, une équipe « back end », qui s’est occupée de la partie Acquisition.
 
 Ce projet étant open source, l\'ensemble du code source est disponible ici : <a
-                                href="https://github.com/projetlinky2016/ProjetCompteurIntelligent"
-                                target="_blank" style="color: #0b97c4">https://github.com/projetlinky2016/ProjetCompteurIntelligent </a>
+                                href="https://github.com/compteurIntelligent/ProjetCompteurIntelligent"
+                                target="_blank" style="color: #0b97c4">https://github.com/compteurIntelligent/ProjetCompteurIntelligent </a>
 </div>
                 </div>';
 $pdf->writeHTML($html, true, false, true, false, '');
